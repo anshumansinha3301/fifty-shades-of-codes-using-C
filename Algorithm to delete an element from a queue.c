@@ -8,7 +8,7 @@ struct Queue {
     int front;
     int rear;
 };
-
+ 
 void initQueue(struct Queue* q) {
     q->front = -1;
     q->rear = -1;
