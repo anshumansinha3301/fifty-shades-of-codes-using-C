@@ -2,7 +2,7 @@
 #include <stdlib.h>
  
 #define MAX_SIZE 100
-
+ 
 struct Queue {
     int items[MAX_SIZE];
     int front;
