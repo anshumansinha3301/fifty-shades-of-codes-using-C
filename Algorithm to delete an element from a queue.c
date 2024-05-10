@@ -35,7 +35,7 @@ void enqueue(struct Queue* q, int value) {
     q->items[q->rear] = value;
     printf("%d enqueued to the queue\n", value);
 }
-
+ 
 int dequeue(struct Queue* q) {
     if (isEmpty(q)) {
         printf("Queue is empty\n");
