@@ -21,7 +21,7 @@ int isEmpty(struct Queue* q) {
 int isFull(struct Queue* q) {
     return q->rear == MAX_SIZE - 1;
 }
-
+ 
 void enqueue(struct Queue* q, int value) {
     if (isFull(q)) {
         printf("Queue is full\n");
