@@ -49,7 +49,7 @@ int dequeue(struct Queue* q) {
     }
     return dequeuedItem;
 }
-
+ 
 void deleteNElements(struct Queue* q, int n) {
     if (isEmpty(q)) {
         printf("Queue is empty\n");
