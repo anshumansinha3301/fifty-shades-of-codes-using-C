@@ -64,7 +64,7 @@ void deleteNElements(struct Queue* q, int n) {
     }
     printf("%d elements deleted from the queue\n", n);
 }
- 
+  
 int main() {
     struct Queue q;
     initQueue(&q);
